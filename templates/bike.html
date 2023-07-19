@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+</head>
+ <body style="background-color:pink;" 
+ >
+    <center>
+        <h1> THIS IS BIKE MODELS</h1>
+        <marquee><b>This is bike show room</b></marquee>
+    </center>
+        <button><a href="{% url 'about' %}">ABOUT</a></button>
+        <button>HOME</button>
+       <button><a href="{% url 'prices' %}">PRICES</a></button>
+        <button><a href="{% url 'model' %}">MODELS</a></button>
+    <center>
+
+        <h2>THIS IS RX100  BIKE</h2>
+       
+               <img src="{% static 'images/rx.jpg' %}" alt="" srcset="">
+        
+    
+        
+
+            
+    </center>
+</body>
+</html>

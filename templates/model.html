@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+</head>
+<body>
+    <a href="{% url 'bike' %}"><button>BIKE</button></a>
+    <center> <h1>MODELS </h1></center>
+
+    <img src="{% static 'images/r15.jpg' %}" alt="" srcset="">
+    <img src="{% static 'images/fz.jpg' %}" alt="" srcset="">
+    
+</body>
+</html>

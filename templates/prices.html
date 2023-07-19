@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/css' %}">
+</head>
+<body>
+    <center>
+        <h1>PRICES LIST</h1>
+        <b>RX-100 PRICE: 1,70,000</b><br>
+        <b>RX-135 PRICE: 1,80,000</b><br>
+        <b>YAMHAR15:3,00,000</b><br>
+        <b>FZ :2,00,000</b><br>
+        <a href="{% url 'bike' %}"><button>bike</button></a>
+    </center>
+</body>
+</html>
